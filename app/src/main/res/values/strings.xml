@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Bill splitter</string>
-    <string name="cantidad_input">Cantidad</string>
-    <string name="comensales_input">Comensales</string>
-    <string name="switch_label">Redondear propina</string>
-    <string name="btn_string">Calcular</string>
-    <string name="resultado_label">Cada uno:</string>
-    <string name="cantidad_total_label">Cantidad total:</string>
+    <string name="cantidad_input">Quantity</string>
+    <string name="comensales_input">Diners</string>
+    <string name="switch_label">Round tip</string>
+    <string name="btn_string">Calculate</string>
+    <string name="resultado_label">Each one:</string>
+    <string name="cantidad_total_label">Total check:</string>
 </resources>

@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Bill splitter</string>
+    <string name="cantidad_input">Cantidad</string>
+    <string name="comensales_input">Comensales</string>
+    <string name="switch_label">Redondear propina</string>
+    <string name="btn_string">Calcular</string>
+    <string name="resultado_label">Cada uno:</string>
+    <string name="cantidad_total_label">Cantidad total:</string>
+</resources>

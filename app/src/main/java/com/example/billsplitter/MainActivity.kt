@@ -42,13 +42,13 @@ class MainActivity : AppCompatActivity() {
         }
         btnDividir.setOnClickListener {
 
-            val value1 = input1.text.toString().toFloat()
-            val value2 = input2.text.toString().toFloat()
-            var input2_changed = 0.0f;
+            var value1 = input1.text.toString().toFloat()
+            var value2 = input2.text.toString().toFloat()
+            var roundedTotal = value1;
 
             if (switch.isChecked){
 
-                input2_changed = when (slider.value){
+                roundedTotal = when (slider.value){
                     1.0f -> value1 * 1.05f
                     2.0f -> value1 * 1.10f
                     3.0f -> value1 * 1.15f
@@ -59,14 +59,14 @@ class MainActivity : AppCompatActivity() {
             }
 
 
-            total.text = "Cantidad total: $value1";
+            total.text = "Cantidad total: $roundedTotal€";
 
             if (value2 != 0f) {
                 var result = 0.0f;
                 if (!switch.isChecked){
                     result = value1 / value2
                 } else {
-                    result = input2_changed / value2
+                    result = roundedTotal / value2
                 }
 
                 resultText.text = "Cada uno: $result€"
